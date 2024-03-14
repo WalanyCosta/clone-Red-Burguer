@@ -4,14 +4,16 @@ module.exports = {
   theme: {
     colors: {
       'white': '#FFFFFF',
-      'gray': {
-        200: '#F6F7F8'
-      },
+      'gray':'#F6F7F8',
       'black': '#000',
       'red': '#FF3131',
       'green': '#54CC0A' 
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('/images/bg.png')"
+      }
+    },
   },
   plugins: [],
 }
