@@ -91,7 +91,7 @@
         </div>
       </section>
 
-      <div class="w-full fixed inset-0 z-30 bg-black/50 block px-32">
+      <div class="w-full fixed inset-0 z-30 bg-black/50 px-32 hidden | modal">
         <div class="min-w-80 md:w-[36rem] absolute py-3 px-6 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 rounded-md bg-white">
           <h3 class="text-center font-bold text-xl my-4">Seu Carrinho</h3>
           <div class="flex flex-col gap-1">
@@ -117,7 +117,7 @@
             </div>
 
             <div class="flex items-center justify-between">
-              <button class="px-5 py-2 text-lg mt-4 rounded-lg cursor-pointer border border-black/30" type="button">Fechar</button>
+              <button class="px-5 py-2 text-lg mt-4 rounded-lg cursor-pointer border border-black/30 | button-ghost" type="button">Fechar</button>
               <button class="bg-green px-5 py-2 text-lg mt-4 rounded-lg cursor-pointer text-white">Finalizar pedido</button>
             </div>
           </form>
@@ -129,4 +129,5 @@
       </footer>
     </main>
   </body>
+  <script src="./main.js"></script>
 </html>
