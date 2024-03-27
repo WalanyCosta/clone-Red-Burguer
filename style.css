@@ -6,36 +6,40 @@
   body {
     @apply bg-gray text-black;
   }
+
+  button {
+    @apply transition ease-in-out active:scale-110;
+  }
 }
 
-.modal[data-visible]{
+.modal[data-visible] {
   @apply block;
 }
 
-.product__wrapper{
+.product__wrapper {
   @apply grid grid-cols-1 lg:grid-cols-2 gap-12 px-3;
 }
 
-.product__item{
+.product__item {
   @apply max-w-[612px] grid grid-flow-col gap-2 pt-1;
 }
 
-.product__image{
+.product__image {
   @apply row-span-2 w-36 h-36 rounded;
 }
 
-.product__header{
+.product__header {
   @apply text-lg font-bold;
 }
 
-.product__footer{
+.product__footer {
   @apply flex justify-between items-center pr-6;
 }
 
-.product__footer-price{
+.product__footer-price {
   @apply text-lg font-medium;
 }
 
-.product__footer-buy{
+.product__footer-buy {
   @apply px-3 py-2 bg-black text-white rounded cursor-pointer;
 }
